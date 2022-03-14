@@ -24,6 +24,8 @@ const HeadTag = ({ title, description }) => {
 
       <title>Little Gathering {title && `| ${title}`}</title>
 
+      <meta name="google-site-verification" content="pr129wxjduo5wNmDWxCBa7KshsApgXKh31G-hNbz-Eg" />
+
       <link rel="icon" href="/favicon.ico" />
 
       <link rel="apple-touch-icon" href="/logo192.png" />
