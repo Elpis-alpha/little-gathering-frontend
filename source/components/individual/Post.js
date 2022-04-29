@@ -188,7 +188,7 @@ const Post = ({ post, owner, comments }) => {
 
       <div className="post-holder">
 
-        <div className="post-title">{post.title}</div>
+        <div className="post-title"><h1 style={{ display: "contents" }}>{post.title}</h1></div>
 
         <div className="user-data">
 
@@ -202,9 +202,9 @@ const Post = ({ post, owner, comments }) => {
 
             <div className="user-info">
 
-              <div className="username">{owner.name}</div>
+              <div className="username"><h2 style={{ display: "contents" }}>{owner.name}</h2></div>
 
-              <div className="email">{owner.email}</div>
+              <div className="email"><h2 style={{ display: "contents" }}>{owner.email}</h2></div>
 
             </div>
 

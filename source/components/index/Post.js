@@ -219,7 +219,7 @@ const Post = ({ post }) => {
 
       <div className="post-holder">
 
-        <div className="post-title"><Link href={`/post/${post._id}`}><a>{post.title}</a></Link></div>
+        <div className="post-title"><Link href={`/post/${post._id}`}><a><h1 style={{ display: "contents" }}>{post.title}</h1></a></Link></div>
 
         <div className="user-data">
 
@@ -233,9 +233,9 @@ const Post = ({ post }) => {
 
             <div className="user-info">
 
-              <div className="username">{post.name}</div>
+              <div className="username"><h2 style={{ display: "contents" }}>{post.name}</h2></div>
 
-              <div className="email">{post.email}</div>
+              <div className="email"><h2 style={{ display: "contents" }}>{post.email}</h2></div>
 
             </div>
 

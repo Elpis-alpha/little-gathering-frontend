@@ -9,7 +9,7 @@ const LoginPage = () => {
 
     <>
 
-      <HeadTag />
+      <HeadTag title="Welcome back" description="A lot have happened since you left! Kindly enter your details to log in" />
 
       <LoginFormComp />
 

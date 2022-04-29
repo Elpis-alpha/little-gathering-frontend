@@ -247,7 +247,7 @@ const NavBar = () => {
 
       <div className="heading">
 
-        <Link href="/"><a>Little Gathering</a></Link>
+        <Link href="/"><a><h1 style={{ display: "contents" }}>Little Gathering</h1></a></Link>
 
       </div>
 
