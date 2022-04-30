@@ -1,6 +1,3 @@
-// const host = "http://localhost:5000"                            // Dev
-// const host = "https://elpis-little-gathering.herokuapp.com"    // Pro
-
 const host = process.env.NEXT_PUBLIC_BACK_END
 
 export const createUser = () => `${host}/api/users`
