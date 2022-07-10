@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://little-gathering.vercel.app/</loc>
+  <lastmod>2022-07-10T15:08:20+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://little-gathering.vercel.app/signup</loc>
+  <lastmod>2022-07-10T15:08:20+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://little-gathering.vercel.app/login</loc>
+  <lastmod>2022-07-10T15:08:20+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://little-gathering.vercel.app/post/62270dac7452d65344ef339f</loc>
+  <lastmod>2022-07-10T15:08:20+00:00</lastmod>
+  <priority>0.60</priority>
+</url>
+<url>
+  <loc>https://little-gathering.vercel.app/post/6225f7b392a1c2fb05e57411</loc>
+  <lastmod>2022-07-10T15:08:20+00:00</lastmod>
+  <priority>0.60</priority>
+</url>
+<url>
+  <loc>https://little-gathering.vercel.app/post/6225f0eb54e3574859374567</loc>
+  <lastmod>2022-07-10T15:08:20+00:00</lastmod>
+  <priority>0.60</priority>
+</url>
+<url>
+  <loc>https://little-gathering.vercel.app/post/6225edd754e35748593744e4</loc>
+  <lastmod>2022-07-10T15:08:20+00:00</lastmod>
+  <priority>0.60</priority>
+</url>
+
+
+</urlset>

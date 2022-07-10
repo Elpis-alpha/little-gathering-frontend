@@ -1,4 +1,4 @@
-import { faBars, faSignOut, faSquarePlus, faUserCheck, faUserCog, faUserPlus } from "@fortawesome/free-solid-svg-icons"
+import { faSignOut, faSquarePlus, faUserCheck, faUserCog, faUserPlus } from "@fortawesome/free-solid-svg-icons"
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
@@ -21,6 +21,8 @@ import { logoutUser } from "../../api"
 import { removeUserData } from "../../store/actions/userAction"
 
 import { useRouter } from "next/router"
+
+import { Sling as Hamburger } from "hamburger-react"
 
 
 const NavBar = () => {
@@ -256,8 +258,10 @@ const NavBar = () => {
         {pageWidth < 600 ?
 
           <div className={"res-bars " + (showNav ? 'showNav' : '')} onClick={toggleNav}>
+          {/* <div className={"res-bars " + (showNav ? 'showNav' : '')}> */}
 
-            <FontAwesomeIcon icon={faBars} color="#000000" width="1.5rem" height="1.5rem" />
+            {/* <FontAwesomeIcon icon={faBars} color="#000000" width="1.5rem" height="1.5rem" /> */}
+            <Hamburger color="black" size={20} toggled={!closeNav} toggle={() => {}} duration={1} distance="sm" rounded />
 
           </div>
 
@@ -295,6 +299,7 @@ const NavStyle = styled.nav`
   z-index: 50;
 
   .heading {
+    z-index: 5;
 
     a{
       padding: 1.5rem;
@@ -310,19 +315,7 @@ const NavStyle = styled.nav`
   
   .children{
     font-size: 1rem;
-
-    @keyframes vibrate {
-      0% { transform: rotate(0deg); }
-      25% { transform: rotate(-5deg); }
-      50% { transform: rotate(0deg); }
-      75% { transform: rotate(5deg); }
-      100% { transform: rotate(0deg); }
-    }
-
-    .res-bars:hover {
-      animation: vibrate .1s;
-      animation-iteration-count: infinite;
-    }
+    z-index: 10;
 
     .res-bars{
       padding: 1rem;
@@ -368,13 +361,14 @@ const NavStyle = styled.nav`
   .small-nav{
 
     position: fixed;
-    top: 5rem; width: 100%;
+    top: 0; width: 100%;
     height: calc(100vh - 5rem);
+    height: 100vh;
     margin: 0 auto;
     right: 0%;
     background-color: #cfcfcf;
     box-shadow: 0 0 4px 0 black;
-    z-index: 5;
+    z-index: 7;
     overflow: hidden;
     animation: slide-right 1s;
     display: flex;
