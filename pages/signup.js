@@ -10,7 +10,7 @@ const SignUpPage = () => {
 
     <>
 
-      <HeadTag title="Sign Up" description="Join Little Gathering and interact with lots of users by dropping posts and comments. Please enter your details" />
+      <HeadTag title="Sign Up" description="Join Little Gathering and interact with lots of users by dropping posts and comments. Please enter your details" ogImage='-auth' />
 
       <SignupFormComp />
 

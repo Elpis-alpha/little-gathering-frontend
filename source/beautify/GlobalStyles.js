@@ -144,8 +144,10 @@ html{
 
 body{
   min-height: 100vh;
-  font-size: .8rem;
-  line-height: 1.6rem;
+  /* font-size: .8rem;
+  line-height: 1.6rem; */
+  font-size: .8pc;
+  line-height: 1.6pc;
   font-family: Footlight;
   background-color: #e0e0e0;
   color: #7c7c7c;

@@ -80,7 +80,7 @@ const PostHolder = ({ posts }) => {
 
         {(showLoader && allPosts.length > 9) && <div className='s-loa'>
 
-          <Oval width="5rem" height="5rem" color='black' secondaryColor='black' />
+          <Oval width="5pc" height="5pc" color='black' secondaryColor='black' />
 
         </div>}
 
@@ -101,8 +101,8 @@ display: flex;
   display: block;
 
   .no-po{
-    padding: 2rem 1rem;
-    font-size: 2rem;
+    padding: 2pc 1pc;
+    font-size: 2pc;
     text-align: center;
   }
 }
@@ -112,7 +112,7 @@ display: flex;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 2rem;
+  padding: 2pc;
 }
 
 `

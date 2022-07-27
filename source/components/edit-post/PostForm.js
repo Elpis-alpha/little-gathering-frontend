@@ -75,7 +75,7 @@ const PostForm = ({ post, owner }) => {
 
     buttonRef.current.disabled = true
 
-    setButtonValue(<div className="acct-load">Publishing Post <Oval color="#f4f4f4" height="1rem" wrapperStyle={{ paddingLeft: ".5rem" }} width="1rem" /></div>)
+    setButtonValue(<div className="acct-load">Publishing Post <Oval color="#f4f4f4" height="1pc" wrapperStyle={{ paddingLeft: ".5pc" }} width="1pc" /></div>)
 
     const postEdit = await fetch(editPost(post._id), {
 
@@ -115,7 +115,7 @@ const PostForm = ({ post, owner }) => {
 
     deleteRef.current.disabled = true
 
-    setButtonValue(<div className="acct-load">Deleting Post <Oval color="#f4f4f4" height="1rem" wrapperStyle={{ paddingLeft: ".5rem" }} width="1rem" /></div>)
+    setButtonValue(<div className="acct-load">Deleting Post <Oval color="#f4f4f4" height="1pc" wrapperStyle={{ paddingLeft: ".5pc" }} width="1pc" /></div>)
 
     const postDelete = await fetch(deletePost(post._id), {
 
@@ -201,26 +201,26 @@ const PostFormStyle = styled.div`
     width: 100%;
     text-align: center;
     color: black;
-    padding: 1rem;
-    padding-top: 2rem;
-    padding-bottom: .5rem;
+    padding: 1pc;
+    padding-top: 2pc;
+    padding-bottom: .5pc;
 
     .title{
-      font-size: 2rem;
-      line-height: 3rem;
-      /* padding: 0.5rem 0; */
+      font-size: 2pc;
+      line-height: 3pc;
+      /* padding: 0.5pc 0; */
     }
 
     p{
-      font-size: 1rem;
+      font-size: 1pc;
     }
   }
 
   .form-pack{
     width: 100%;
-    padding: 2rem;
+    padding: 2pc;
     padding-top: 0;
-    padding-bottom: 1rem;
+    padding-bottom: 1pc;
 
     label{
       display: block;
@@ -232,9 +232,10 @@ const PostFormStyle = styled.div`
     input{
       width: 100%;
       outline: none;
-      border: 1px solid grey;
-      padding: .1rem .5rem;
-      border-radius: .3rem;
+      border: 0 solid grey;
+      box-shadow: 0 0 2px rgba(0,0,0,.5);
+      padding: .1pc .5pc;
+      border-radius: .3pc;
       background-color: transparent;
       transition: background-color .5s, border .5s;
       display: block;
@@ -244,21 +245,22 @@ const PostFormStyle = styled.div`
       width: 100%;
       min-height: 20vh;
       outline: none;
-      border: 1px solid grey;
+      border: 0px solid grey;
+      box-shadow: 0 0 2px rgba(0,0,0,.5);
       display: block;
-      padding: .1rem .5rem;
-      border-radius: .3rem;
+      padding: .1pc .5pc;
+      border-radius: .3pc;
       background-color: transparent;
       transition: background-color .5s, border .5s;
     }
 
     button{
-      padding: .1rem 1rem;
+      padding: .1pc 1pc;
       width: 100%;
       background-color: #3c73e9;
       color: white;
       border: none; outline: none;
-      border-radius: .3rem;
+      border-radius: .3pc;
       cursor: pointer;
       transition: box-shadow .5s;
 
@@ -270,7 +272,7 @@ const PostFormStyle = styled.div`
         display: flex;
         align-items: center;
         justify-content: center;
-        height: 2rem;
+        height: 2pc;
       }
 
       &:hover{

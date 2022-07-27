@@ -395,6 +395,7 @@ const PostStyle = styled.div`
       padding-bottom: .5rem;
 
       .user-image{
+        align-self: center;
         width: 4rem;
         height: 4rem;
         display: inline-block;

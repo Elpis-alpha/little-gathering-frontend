@@ -9,7 +9,7 @@ const LoginPage = () => {
 
     <>
 
-      <HeadTag title="Welcome back" description="A lot have happened since you left! Kindly enter your details to log in" />
+      <HeadTag title="Welcome back" description="A lot have happened since you left! Kindly enter your details to log in" ogImage='-auth' />
 
       <LoginFormComp />
 
